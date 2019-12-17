@@ -1,0 +1,41 @@
+.side-menu{
+    width: 20%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #439048;
+    bottom: 0;
+    height: 100%;
+    color: #fff; 
+    overflow-y: scroll;
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 26px;
+        margin-bottom: 20px;
+    img{
+        width: 145px;
+    }
+    }
+    ul{
+        // margin-left: 11px;
+    li{
+        display: flex;
+        padding-left: 36px;
+        cursor: pointer;
+        margin-bottom: 6px;
+        h2{ 
+        font-weight: 400;
+        font-size: 16px;
+        padding-left: 11px;
+        margin-top: 12px; 
+        }
+    }
+    li.active{
+        background: #fff;
+    color: #439048;
+    border-radius: 21px 0px 0px 21px;
+    }
+    }
+}

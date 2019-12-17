@@ -1,0 +1,29 @@
+.bg-light {
+    background-color: #ffffff!important;
+    box-shadow: 0px 0px 19px -6px rgba(68,68,68,0.3);
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 42px;
+        margin-right: 4px;
+    }
+    p{
+        margin: 0;
+    }
+  }
+  .fa{ 
+    font-size: 29px;
+    margin-left: 19px;
+    color: #6b6b6b;
+    margin-top: 4px;
+  }
+
+}
+}
